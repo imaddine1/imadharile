@@ -6,4 +6,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       });
     });
   });
+
+var date = new Date().getFullYear();
+console.log("the year is : ", date);
   
+document.getElementsByClassName('current-year')[0].textContent = new Date().getFullYear();
