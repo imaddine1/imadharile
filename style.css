@@ -1,6 +1,8 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #121212;
@@ -16,28 +18,6 @@ body {
     text-decoration: underline;
   }
   
-  /* Header */
-  .header-portfolio {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: white;
-  }
-  
-  .header-portfolio h1 {
-    font-size: 2.5rem;
-    margin: 0;
-  }
-  
-  .header-portfolio h1 span {
-    color: #f7e018;
-  }
-  
-  .header-portfolio p {
-    font-size: 1.2rem;
-    margin: 20px 0;
-  }
-  
   /* About Me Section */
   .about-me {
     max-width: 800px;
@@ -51,8 +31,8 @@ body {
   
   .about-me h2 {
     font-size: 2rem;
-    color: #f7e018;
-    text-shadow: 0 0 5px #f7e018;
+    color: #d5d5d5;
+    text-shadow: 0 0 5px #c1c1c1;
   }
   
   /* Skills Section */
@@ -63,8 +43,8 @@ body {
   }
   
   .skills h2 {
-    color: #6a11cb;
-    text-shadow: 0 0 5px #6a11cb;
+    color: #01c2ff;
+    text-shadow: 0 0 5px #5693d3,
   }
   
   .skill-list {
@@ -95,7 +75,7 @@ body {
   
   .skill p {
     margin-top: 10px;
-    color: #f7e018;
+    color: #19b6db;
     font-weight: bold;
   }
   
@@ -107,8 +87,8 @@ body {
   
   .work-experience h2 {
     text-align: center;
-    color: #6a11cb;
-    text-shadow: 0 0 5px #6a11cb, 0 0 15px #6a11cb;
+    color: #01c2ff;
+    text-shadow: 0 0 5px #5693d3,
   }
   
   .company-card {
@@ -128,8 +108,8 @@ body {
   .company-card h3 {
     margin-top: 10px;
     font-size: 1.5rem;
-    color: #f7e018;
-  }
+    color: #d5d5d5;
+    text-shadow: 0 0 5px #c1c1c1;  }
   
   .company-card p {
     margin: 10px 0;
@@ -139,7 +119,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background: #6a11cb;
+    background: #2d4ec7;
     color: white;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
@@ -158,8 +138,8 @@ body {
   }
   
   .projects h2 {
-    color: #6a11cb;
-    text-shadow: 0 0 5px #6a11cb;
+    color: #01c2ff;
+    text-shadow: 0 0 5px #5693d3,
   }
   
   .project-card {
@@ -172,8 +152,8 @@ body {
   
   .project-card h3 {
     font-size: 1.5rem;
-    color: #f7e018;
-  }
+    color: #d5d5d5;
+    text-shadow: 0 0 5px #c1c1c1;  }
   
   .project-card p {
     margin: 10px 0;
@@ -183,7 +163,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background: #6a11cb;
+    background: #2d4ec7;
     color: white;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
@@ -202,8 +182,8 @@ body {
   }
   
   .social-media h2 {
-    color: #6a11cb;
-    text-shadow: 0 0 5px #6a11cb;
+    color: #01c2ff;
+    text-shadow: 0 0 5px #5693d3,
   }
   
   .social-links a {
